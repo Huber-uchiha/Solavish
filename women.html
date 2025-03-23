@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Collection - Solavish</title>
+    <link rel="stylesheet" href="csssSOO.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="cssSOO.css">
+    <style>
+        .main-header {
+            position: relative; /* Change from fixed to relative */
+            background-color: initial; /* Ensure normal background color */
+        }
+    </style>
+</head>
+<body class="women-theme">
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="imgs/logomen.png" alt="Solavish" class="logo-img">
+                <div class="logo-text">SOLAVISH</div>
+            </div>
+            
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">
+                    <span class="nav-text">Home</span>
+                    <span class="nav-line"></span>
+                </a>
+                <a href="about.html" class="nav-link">
+                    <span class="nav-text">About</span>
+                    <span class="nav-line"></span>
+                </a>
+                <a href="collections.html" class="nav-link active">
+                    <span class="nav-text">Collections</span>
+                    <span class="nav-line"></span>
+                </a>
+                <a href="contact.html" class="nav-link">
+                    <span class="nav-text">Contact</span>
+                    <span class="nav-line"></span>
+                </a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="collection-page women-collection">
+        <section class="collection-header animate__animated animate__fadeIn">
+            <h1>Women's Collection</h1>
+            <p>Timeless Sophistication for the Modern Woman</p>
+            <div class="collection-categories">
+                <button class="category-btn active">All</button>
+                <button class="category-btn">Jewelry</button>
+                <button class="category-btn">Accessories</button>
+                <button class="category-btn">Fragrances</button>
+            </div>
+        </section>
+
+        <section class="collection-grid">
+            <!-- Jewelry Category -->
+            <div class="product-card animate__animated animate__fadeInUp" data-category="jewelry">
+                <div class="product-badge">New</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338" alt="Diamond Necklace">
+                    <div class="product-overlay">
+                        <button class="quick-view">
+                            <i class="fas fa-eye"></i>
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3>Diamond Constellation</h3>
+                    <p>18K Rose Gold Setting</p>
+                    <div class="product-meta">
+                        <span class="price">$15,200</span>
+                        <div class="color-options">
+                            <span class="color rose-gold active"></span>
+                            <span class="color gold"></span>
+                            <span class="color platinum"></span>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Accessories Category -->
+            <div class="product-card animate__animated animate__fadeInUp" data-category="accessories">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3" alt="Luxury Handbag">
+                    <div class="product-overlay">
+                        <button class="quick-view">
+                            <i class="fas fa-eye"></i>
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3>Iconic Tote</h3>
+                    <p>Limited Edition</p>
+                    <div class="product-meta">
+                        <span class="price">$8,900</span>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Fragrances Category -->
+            <div class="product-card animate__animated animate__fadeInUp" data-category="fragrances">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601" alt="Luxury Perfume">
+                    <div class="product-overlay">
+                        <button class="quick-view">
+                            <i class="fas fa-eye"></i>
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3>Rose Essence</h3>
+                    <p>Signature Fragrance</p>
+                    <div class="product-meta">
+                        <span class="price">$580</span>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="product-card animate__animated animate__fadeInUp" data-category="jewelry">
+                <div class="product-badge">New</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338" alt="Diamond Necklace">
+                    <div class="product-overlay">
+                        <button class="quick-view">
+                            <i class="fas fa-eye"></i>
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3>Diamond Constellation</h3>
+                    <p>18K Rose Gold Setting</p>
+                    <div class="product-meta">
+                        <span class="price">$15,200</span>
+                        <div class="color-options">
+                            <span class="color rose-gold active"></span>
+                            <span class="color gold"></span>
+                            <span class="color platinum"></span>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Accessories Category -->
+            <div class="product-card animate__animated animate__fadeInUp" data-category="accessories">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3" alt="Luxury Handbag">
+                    <div class="product-overlay">
+                        <button class="quick-view">
+                            <i class="fas fa-eye"></i>
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3>Iconic Tote</h3>
+                    <p>Limited Edition</p>
+                    <div class="product-meta">
+                        <span class="price">$8,900</span>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Fragrances Category -->
+            <div class="product-card animate__animated animate__fadeInUp" data-category="fragrances">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601" alt="Luxury Perfume">
+                    <div class="product-overlay">
+                        <button class="quick-view">
+                            <i class="fas fa-eye"></i>
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3>Rose Essence</h3>
+                    <p>Signature Fragrance</p>
+                    <div class="product-meta">
+                        <span class="price">$580</span>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="product-card animate__animated animate__fadeInUp" data-category="jewelry">
+                <div class="product-badge">New</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338" alt="Diamond Necklace">
+                    <div class="product-overlay">
+                        <button class="quick-view">
+                            <i class="fas fa-eye"></i>
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3>Diamond Constellation</h3>
+                    <p>18K Rose Gold Setting</p>
+                    <div class="product-meta">
+                        <span class="price">$15,200</span>
+                        <div class="color-options">
+                            <span class="color rose-gold active"></span>
+                            <span class="color gold"></span>
+                            <span class="color platinum"></span>
+                        </div>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Accessories Category -->
+            <div class="product-card animate__animated animate__fadeInUp" data-category="accessories">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3" alt="Luxury Handbag">
+                    <div class="product-overlay">
+                        <button class="quick-view">
+                            <i class="fas fa-eye"></i>
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3>Iconic Tote</h3>
+                    <p>Limited Edition</p>
+                    <div class="product-meta">
+                        <span class="price">$8,900</span>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Fragrances Category -->
+           
+        </section>
+
+    </section>
+
+        <section class="collection-features">
+            <div class="feature animate__animated animate__fadeInUp">
+                <i class="fas fa-gem"></i>
+                <h3>Bespoke Service</h3>
+                <p>Personalized styling consultation</p>
+            </div>
+            <div class="feature animate__animated animate__fadeInUp animate__delay-1s">
+                <i class="fas fa-award"></i>
+                <h3>Authenticity</h3>
+                <p>Certified genuine products</p>
+            </div>
+            <div class="feature animate__animated animate__fadeInUp animate__delay-2s">
+                <i class="fas fa-heart"></i>
+                <h3>Lifetime Care</h3>
+                <p>Complimentary maintenance</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section brand">
+                <div class="logo-text">SOLAVISH</div>
+                <p class="tagline">Dare to Be Lavish</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+                <nav class="footer-nav">
+                    <a href="new-arrivals.html">New Arrivals</a>
+                    <a href="collections.html">Best Sellers</a>
+                    <a href="about.html">Our Story</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+            </div>
+
+            <div class="footer-section service">
+                <h4>Customer Service</h4>
+                <nav class="footer-nav">
+                    <a href="Not-avilable.html">Shipping Information</a>
+                    <a href="Not-avilable.html">Returns & Exchanges</a>
+                    <a href="Not-avilable.html">Size Guide</a>
+                    <a href="Not-avilable.html">Care Instructions</a>
+                </nav>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h4>Join Our World</h4>
+                <p>Subscribe for exclusive updates and offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Solavish. All rights reserved.</p>
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-paypal"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

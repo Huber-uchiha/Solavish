@@ -1,0 +1,303 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.mission, .values {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* New styles */
+.main-header {
+    position: relative;
+    z-index: 10;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo-img {
+    width: 150px;
+}
+
+.main-nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    position: relative;
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-link .nav-line {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    width: 0;
+    transition: width 0.3s;
+}
+
+.nav-link:hover .nav-line,
+.nav-link.active .nav-line {
+    width: 100%;
+}
+
+.header-actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.cart-icon {
+    position: relative;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.about-hero {
+    background: url('images/about-hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.about-content {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.story-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.story-img {
+    flex: 1;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.story-text {
+    flex: 2;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.team-member {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.team-info {
+    margin-top: 1rem;
+}
+
+.values-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.value {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.value i {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.testimonial {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-logo-img {
+    width: 150px;
+}
+
+.footer-nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav .nav-link {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-social {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.footer-social .social-link {
+    color: #fff;
+    font-size: 1.5rem;
+}
